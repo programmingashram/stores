@@ -1,0 +1,33 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .example-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+   padding: 1rem;
+  }
+  
+  ::ng-deep .mat-toolbar{
+    z-index: 999;
+    position: sticky
+  }
+  ::ng-deep .mat-tab-group{
+    margin-top:55px !important;
+  }
+  
+  ::ng-deep .mat-tab-header{
+        z-index: 999;
+        width:100vw;
+        position: fixed  !important;
+        background-color: red !important;
+  }
+  ::ng-deep .mat-tab-body-wrapper{
+      position: relative !important;
+      margin-top:55px;
+  }
+  
